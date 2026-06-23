@@ -3,7 +3,8 @@
     "target": "esnext",
     "module": "esnext",
     "strict": true,
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "ignoreDeprecations": "6.0"
   },
   "include": ["./src/**/*.ts"],
   "exclude": ["node_modules"]
